@@ -8,5 +8,10 @@ describe('String', function () {
             assert.equal(-1, myString.indexOf('x'));
             assert.equal(-1, myString.indexOf('y'));
         });
+        it('should return 0 when the substring is present at first position', function () {
+            var myString = 'test';
+
+            assert.equal(0, myString.indexOf('t'));
+        });
     });
 });
