@@ -9,7 +9,9 @@
     "email": ""
   },
   "dependencies": {
+    "@micser-demo/sqrt-module": "^1.0.0",
     "express": "^4.13.3",
+    "lodash": "^4.17.19",
     "mocha": "^3.0.0"
   },
   "devDependencies": {
